@@ -1,0 +1,29 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+.container_is{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: #ffff;
+    height: 100vh;
+}
+.title_is h1{
+    font-size: 1vw;
+    margin: 1vw;
+}
+.requ_is{
+    width: 100%;
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}ol {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vw;
+}
+ul li{list-style: none;}
+ul{text-align: start;}
